@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siraj Chairman Sporting Club</title> 
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+    <header>
+    <!--navigation menu start from here-->
+    <nav class="navbar navbar-expand-xl navbar-light main-menu fixed-top"  >
+        <div class="container-fluid p-0 m-0 ">
+            <button class="navbar-toggler btn border-3 border-light ms-2" data-bs-toggle="collapse" data-bs-target="#main-menu">
+                <span class="navbar-toggler-icon ms-2 "></span>
+            </button>
+            <a class="navbar-brand fs-3 fw-bold me-4  p-0 " style="font-family: algerian, sans-serif;" href="index.html"><img src="images/mlogo.png" alt="brand" style="width:40px"> SCSC</a>
+            <div class="collapse navbar-collapse " id="main-menu">
+                <ul class="navbar-nav ms-3 fst-normal">
+                    <li class="nav-item styling-nav active ms-2 "><a class="nav-link active text-success fw-bold " href="index.html">Home</a></li>
+                    <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">About</a>
+                        <ul class="dropdown-menu">
+                            <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#mission">Mission</button></li>
+                            <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#vission">Vission</button></li>
+                            <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#values">Values</button></li>
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="constitution.html">Constitution</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Members</a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="elite.html">Elite members</a></li>
+                            <li><a class="dropdown-item" href="fullmember.html">Full members</a></li>
+                            <li><a class="dropdown-item" href="associatemember.html">Associate members</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown styling-nav"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Committee </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Central committee</a></li>
+                            <li><a class="dropdown-item" href="#">Organizing Committee</a></li>
+                            <li><a class="dropdown-item" href="#">Fund Committee</a></li>
+                        </ul>
+                   </li>
+                    <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Admission </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">New member</a></li>
+                            <li><a class="dropdown-item" href="#">Fund account</a></li>
+                        </ul>
+                   </li>
+                    <li class="nav-item styling-nav"><a class="nav-link" href="#">Events <sup class="bg-danger text-white">new</sup></a></li>
+                    <li class="nav-item styling-nav"><a class="nav-link" href="#scrollspyContactUs">Contact Us</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item styling-nav   m-2"><a class="btn border-2 border-success rounded fw-bold me-1 " href="login.html">Login</a></li>
+                    <li class="nav-item styling-nav  m-2"> <a class="btn border-2 border-success rounded fw-bold me-1 " href="reg.html">Signup</a></li>
+                    <li class="nav-item m-2">
+                        <form action="#" class="d-flex" >
+                            <input class="form-control me-1" type="search" placeholder="Search" aria-label="search">
+                            <button class="btn theme fw-bold border-2 border-success rounded" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>           
+        </div>
+    </nav>
+
+    </header>
+
+    <!---------------Our mission, vission, values section starts here-------------->
+
+        <!--------Mission starts here-------->
+             <!-- Modal -->
+            <div class="modal fade" id="mission" tabindex="-1" aria-labelledby="missionLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="missionLabel">আমাদের মিশন</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <p>
+                                *** আমাদের  মিশন হচ্ছে সমাজে খেলাধুলার মাধ্যমে  সুন্দর মনের বিকাশ, বাঙালি সংস্কৃতি রক্ষা, নৈতিক শিক্ষা দান, সামাজিক মূল্যবোধ বৃদ্ধি, ভ্রাতৃত্ববোধ স্থাপন, মাদকাসক্তি নিরাময়, দুর্বলের উপর সবলের নির্যাতন-নিপীড়ন অহিংস্রভাবে রোধ ইত্যাদির মাধ্যমে একটি সুশিল ও আদর্শ যুব সমাজ গড়ে তোলা।***
+                            </p>
+                            <hr>
+                             <p>
+                               *** Our mission is to develop a beautiful mind in the society through sports, to preserve Bengali culture, to impart moral education, to increase social values, to establish brotherhood, to cure drug addiction, to build a civilized and ideal youth society by non-violently preventing oppression of the weak.***
+                            </p>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#vission">See Our Vission</button>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#values">See Our Values</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------Mission ends here------>
+
+        <!--------vission starts here-------->
+             <!-- Modal -->
+             <div class="modal fade" id="vission" tabindex="-1" aria-labelledby="vissionLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="vissionLabel">আমাদের ভিশন</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <p>
+                                *** আমাদের ভিশন হচ্ছে আমরা এমন একটি সমাজব্যবস্থা গড়তে চাই যেখানে সমাজের সর্বস্তরের মানুষ একি ছাদের নিচে চলে আসবে যেখানে থাকবেনা কোনও ধনী-গরিব, দূর্বল-সবল, বর্ণ-বৈষম্য ইত্যাদির ভেদাভেদ। এবং এমন একটি সংস্থা গড়তে চাই যা আজীবন উক্ত মিশন ও ভিশন তদারকি ও সংরক্ষন করে সমাজকল্যাণ তথা মানবকল্যাণে নিঃস্বার্থভাবে কাজ করবে।***
+                            </p>
+                            <hr>
+                             <p>
+                               *** Our vision is that we want to build a society where people from all walks of life will come under one roof where there will be no discrimination between rich and poor, weak and strong, caste and inequality. And we want to build an organization that will work selflessly for social welfare and human welfare by supervising and preserving that mission and vision for life.***
+                            </p>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#values">See Our Values</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------vission ends here------>
+
+
+        <!--------values starts here-------->
+             <!-- Modal -->
+             <div class="modal fade" id="values" tabindex="-1" aria-labelledby="valuesLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="valuesLabel">আমাদের ভ্যালুস</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <ul >
+                                <li><strong>সততা - </strong>আমরা ক্লাবের স্বার্থে, ক্লাব সদস্যদের স্বার্থে, সমাজের স্বার্থে, দেশের স্বার্থে সর্বাবস্থায় সৎ থাকব।</li>
+                                <li><strong>সম্মান - </strong>আমরা ক্লাবের ছোট বড় সবাইকে যথযথ সম্মান প্রদর্শন করবো। কারোও সম্মানহানি  হয় এমন কিছু করা যাবে না।</li>
+                                <li><strong>দলবদ্ধভাবে কাজ - </strong>ক্লাবের যেকোনো কাজ আমরা সম্মিলিতভাবে সম্পাদন করার চেষ্টা করবো।</li>
+                                <hr>
+                                <li><strong>Honesty - </strong>We will be honest in the interest of the club, in the interest of the club members, in the interest of the society, in the interest of the country.</li>
+                                <li><strong>Respect -</strong> We will show due respect to everyone in the club, big and small. Nothing can be done that dishonors anyone.</li>
+                                <li><strong>Team work -</strong> We will try to perform any work of the club together.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------values ends here------>
+
+
+
+    <!---------------Our mission, vission, values section ends here-------------->
+
+    <!---------Event section starts from here--------------->
+    <!---------Event section ends from here--------------->
+
+    
+    <!--animated brand name starts here-->
+    <div class="row mt-5 pt-5 text-center" style=" height: 100vh; ">
+        <div class="col-lg-6  brand-name text-center mt-5 pt-5">
+            <span class="brand-text-1">Welcome!</span>
+		    <span class="brand-text-2 ">Siraz cahairman sporting club</span>
+            <a href="reg.html" class="btn theme  fs-3 mt-5">Join with us</a>
+            
+        </div>
+        <div class="col-lg-5"></div>
+        <svg class="mb-5 position-relative col-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#3cb22b" fill-opacity="1" d="M0,64L34.3,80C68.6,96,137,128,206,154.7C274.3,181,343,203,411,208C480,213,549,203,617,165.3C685.7,128,754,64,823,37.3C891.4,11,960,21,1029,53.3C1097.1,85,1166,139,1234,138.7C1302.9,139,1371,85,1406,58.7L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+        
+    </div>
+    <!--animated brand name ends here-->
+ 
+        
+
+    <!--navigation menu end here-->
+    <!--carousel slider start here-->
+        <main>
+            <!-----------------------------------About siraz chairman section starts here--------------------------------------------->
+            <div class="container mt-5 mb-3 bg-light ">
+                <div class="row p-5">
+                    
+                    <div class="col-md-9">
+                        <h1 class="text-center fw-bold">সিরাজ উদ্দিন আহমেদ</h1>
+                        <p>সিরাজ উদ্দিন আহম্মেদ ১৯১৫ সালে মে মাসের ৫ তারিখে কিশোরগন্জ জেলার হোসেনপুর উপজেলার ডাকুরিয়া গ্রামে জন্মগ্রহন করেন।মায়ের নাম অমুক পিতা মো: জামাল উদ্দিন।ডাকুরিয়া গ্রামেই তিনি শৈশব ও কৈশর কাটিয়েছেন।১৯৪০ সালে তিনি বিয়ের পিরিতে বসেন।তার স্ত্রির নাম মোছ: অমুক।ছোট বেলা থেকেই তিনি খুব বুদ্ধিমান ছিলেন। ১৯৩৩ সালে দেওয়ান গন্জ ইসলামিয়া উচ্চ বিদ্যালয় থেকে এসএসসি পাস করে।রাজনিতীতে জড়িয়ে পড়ার কারনে আর লেখাপড়া হয়নি।১৯৩৩ সালেই তিনি পূর্ব-পাকিস্তান মুসলিম লীগে যোগ দেন।কিছুদিন পর মুসলিম লীগ থেকে পদদ্যাগ করেন।তিন বুঝতে পারেন মুসলিম লীগ বাঙালীদের অধিকার রক্ষা করবে না।১৯৪৯ সালে যখন আওয়ামী লীগ গঠন হয় তখন তিনি আওয়ামী লীগে যোগ দেন এবং এই এলাকায় আওয়ামী লীগ প্রতিষ্ঠিত করেন।তাই তাকে এই এলাকার আওয়ামী লীগের প্রতিষ্ঠাতা বলা হয়।তিনি মুক্তিযুদ্ধের সংগঠক ছিলন।১৯৭১ মুক্তিযুদ্ধে তিনি অনেক মুক্তিযোদ্ধাদের যুদ্ধে যাওয়ার জন্য অনুপ্রনিত করেন। তার মাধ্যমেই এই এলাকর মানুষ মুক্তিযুদ্ধে ভর্তি হত।তিনি রিলিফ কমিটির চেয়ারম্যানও ছিলেন।১৯৭১ সালের ৭ মার্চে বঙ্গবন্ধুর ভাষন শুনার জন্য বর্তমান রাষ্টপতি আব্দুল হামিদের সাথে দল-বল নিয়ে রেসকোর্স ময়দানে হাজির হন।তার কোন লোভ ছিলনা।তিনি খুবিই সাদা-মাটা জিবন-যাপন করতেন।তিনি িইচ্ছে করলে দূর্নিতী করে অনেক সম্পদের মালিক হতে পারতেন।কিন্তু তিনি তা করেনি। ২০২০ সালে তিনি মৃত্যু বরন করেন।তার জনাযায় অনেক গুণীজন হাজির হয়েছিলেন।</p>
+                    </div>
+                    <div class="col-md-3"><img src="images/tree.png" alt="tree image" max-width="250px" height="300px"></div>
+                </div>
+            </div>
+            
+            <!-----------------------------------About siraz chairman section ends here------------------------------------------------>
+
+            <!-------------------------------------video section starts from here------------------------------------------------------>
+           
+            <div class="container video-gallary">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 ">
+                        <h1 class="display-6 ">মিঠামন ট্যুর ২০২০</h1>
+                        <p>কিশোরগঞ্জের নিকলি, ইটনা, মিঠামন হাওরাঞ্চলের সুন্দর্য্য অবলোকনে আমাদের ক্লাবের দামাল ছেলেদের মিঠামন ট্যুর-২০২০। এক কথায় এটি এমন একটি ট্যুর ছিলো যা আজ স্মৃতির পাতায় ভেসে বেড়াচ্ছে। হয়তো প্রকৃতির নিয়মে এভাবে আর সেই সবাই এক হতে পারবোনা, যা ভাবতেই গা শিউরে উঠে। আর হাওরাঞ্চলের সোন্দর্য নিজ চোখে না দেখলে আপনি তা কখনই বুঝবেন না। এক কথায় অতুলনীয়। <strong>ট্যুর এর কিছু স্মৃতি ভিডিওতে তুলে ধরা হলো</strong></p>
+                    </div>
+                    
+                    <div class="col-md-6  ">
+                        <div class="iframe-container ">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/9WkYBAejQBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+
+                    <hr class="my-5">
+
+                    
+                    <div class="col-md-6  ">
+                        <div class="iframe-container">
+                            <iframe  src="https://www.youtube.com/embed/AAKp8jCn5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-5 ">
+                        <h1 class="display-6 ">জনাব মোঃ সোহেল এম কম</h1>
+                        <p>কিশোরগঞ্জের নিকলি, ইটনা, মিঠামন হাওরাঞ্চলের সুন্দর্য্য অবলোকনে আমাদের ক্লাবের দামাল ছেলেদের মিঠামন ট্যুর-২০২০। এক কথায় এটি এমন একটি ট্যুর ছিলো যা আজ স্মৃতির পাতায় ভেসে বেড়াচ্ছে। হয়তো প্রকৃতির নিয়মে এভাবে আর সেই সবাই এক হতে পারবোনা, যা ভাবতেই গা শিউরে উঠে। আর হাওরাঞ্চলের সোন্দর্য নিজ চোখে না দেখলে আপনি তা কখনই বুঝবেন না। এক কথায় অতুলনীয়। <strong>ট্যুর এর কিছু স্মৃতি ভিডিওতে তুলে ধরা হলো</strong></p>
+                    </div>
+
+
+
+                    <hr class="my-5">
+
+                    <div class="col-md-5 ">
+                        <h1 class="display-6 ">ফাইনাল ২০২০-২১</h1>
+                        <p>কিশোরগঞ্জের নিকলি, ইটনা, মিঠামন হাওরাঞ্চলের সুন্দর্য্য অবলোকনে আমাদের ক্লাবের দামাল ছেলেদের মিঠামন ট্যুর-২০২০। এক কথায় এটি এমন একটি ট্যুর ছিলো যা আজ স্মৃতির পাতায় ভেসে বেড়াচ্ছে। হয়তো প্রকৃতির নিয়মে এভাবে আর সেই সবাই এক হতে পারবোনা, যা ভাবতেই গা শিউরে উঠে। আর হাওরাঞ্চলের সোন্দর্য নিজ চোখে না দেখলে আপনি তা কখনই বুঝবেন না। এক কথায় অতুলনীয়। <strong>ট্যুর এর কিছু স্মৃতি ভিডিওতে তুলে ধরা হলো</strong></p>
+                    </div>
+                    
+                    <div class="col-md-6  ">
+                        <div class="iframe-container">
+                            <iframe  src="https://www.youtube.com/embed/AAKp8jCn5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+
+
+                    <hr class="my-5">
+
+
+                    <div class="container">
+                        <h1 class="mb-5 text-center fw-bold">ক্লাবের ভিডিওসমূহ</h1>
+                        <div class="row justify-content-between">
+                            <div class="col-md-4 py-2">
+                                <div class="iframe-container">
+                                    <iframe  src="https://www.youtube.com/embed/AAKp8jCn5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                                </div>
+                                <label for="iframe" class="fw-bolder">আমাদের ক্লাবের</label>
+                                <span class="text-muted d-block">uploaded : 10 jan 2021</span>
+                            </div>
+                            <div class="col-md-4  py-2">
+                                <div class="iframe-container">
+                                    <iframe  src="https://www.youtube.com/embed/AAKp8jCn5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <label for="iframe" class="fw-bolder">আমাদের ক্লাবের</label>
+                                    <span class="text-muted d-block">uploaded : 10 jan 2021</span>
+                            </div>
+                            <div class="col-md-4  py-2">
+                                <div class="iframe-container">
+                                    <iframe  src="https://www.youtube.com/embed/AAKp8jCn5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <label for="iframe" class="fw-bolder">আমাদের ক্লাবের</label>
+                                    <span class="text-muted d-block">uploaded : 10 jan 2021</span>
+                            </div>
+                            <div class="col-md-4  py-2">
+                                <div class="iframe-container">
+                                    <iframe  src="https://www.youtube.com/embed/AAKp8jCn5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <label for="iframe" class="fw-bolder">আমাদের ক্লাবের</label>
+                                    <span class="text-muted d-block">uploaded : 10 jan 2021</span>
+                            </div>
+                            <div class="col-md-4  py-2">
+                                <div class="iframe-container">
+                                    <iframe  src="https://www.youtube.com/embed/AAKp8jCn5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <label for="iframe" class="fw-bolder">আমাদের ক্লাবের</label>
+                                    <span class="text-muted d-block">uploaded : 10 jan 2021</span>
+                            </div>
+                            <div class="col-md-4  py-2">
+                                <div class="iframe-container">
+                                    <iframe  src="https://www.youtube.com/embed/AAKp8jCn5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <label for="iframe" class="fw-bolder">আমাদের ক্লাবের</label>
+                                    <span class="text-muted d-block">uploaded : 10 jan 2021</span>
+                            </div>
+
+
+                            <!------------Collapsable video starts here------------->
+                            
+
+                            <div class="text-center">
+                                <button class="btn btn-lg  text-center p-3 my-5 fw-500 theme" type="button" data-bs-toggle="collapse" data-bs-target="#moreVideos">আরোও ভিডিও</button>
+                            </div>
+                            <div class="collapse" id="moreVideos">
+                                <div class="row">
+                                    <div class="col-md-4  py-2">
+                                        <div class="iframe-container">
+                                            <iframe  src="https://www.youtube.com/embed/AAKp8jCn5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                            <label for="iframe" class="fw-bolder">আমাদের ক্লাবের</label>
+                                            <span class="text-muted d-block">uploaded : 10 jan 2021</span>
+                                    </div>
+                                    <div class="col-md-4  py-2">
+                                        <div class="iframe-container">
+                                            <iframe  src="https://www.youtube.com/embed/AAKp8jCn5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                            <label for="iframe" class="fw-bolder">আমাদের ক্লাবের</label>
+                                            <span class="text-muted d-block">uploaded : 10 jan 2021</span>
+                                    </div>
+                                    <div class="col-md-4  py-2">
+                                        <div class="iframe-container">
+                                            <iframe  src="https://www.youtube.com/embed/AAKp8jCn5dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                            <label for="iframe" class="fw-bolder">আমাদের ক্লাবের</label>
+                                            <span class="text-muted d-block">uploaded : 10 jan 2021</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!------------Collapsable video starts here------------->
+
+                            <hr class="my-5">
+
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+
+            <!-------------------------------------video section ends from here------------------------------------------------------>
+
+            <!--our activity section starts here-->
+            <div class="container-fluid avtivity-section mt-4" >
+                <div class="activity-title text-center  "><h2 class="display-3 fw-bold mt-2 pt-3">Our activities</h2></div>
+                     <div class="row text-center overflow-hidden f" id="activities" >
+                    
+                         <div class="activity-col col-lg-5  p-0">
+                             <div class=" p-4 ">
+                                 <i class="fas  p-3 fa-3x text-white rounded-circle fa-hands-helping styling-icon"></i>
+                                 <h2 class="fw-bold">Bangali Culture</h2>
+                                 <p class="">হিন্দু-মুসলিম বৌদ্ধ-খ্রীস্টান এগুলো হচ্ছে আমাদের ধর্মীয় পরিচয়, কিন্তু আমাদের আরেকটি এক ও অভিন্ন পরিচয় রয়েছে তা হলো আমরা বাঙালী ৷ অসাম্প্রদায়ীক বাংলদেশ বিনির্মানের যে স্বপ্ন নিয়ে বঙ্গবন্ধুর নেতুত্বে ১৯৭১ সালে ৩০ লাখ শহিদের রক্তের বিনিময়ে ও ২ লাখ মা-বোনের ইজ্জতের বিনিময়ে যে বাংলাদেশ স্বাধিন হয়েছে । সেই স্বপ্ন বাস্তবায়নের জন্য বাঙালী জাতীয়তাবোধকে সানিত করা অতি গুরোত্বপূর্ণ । অসাম্প্রদায়ীক বাংলাদেশ ধীরে ধীরে সাম্প্রদায়ীক হয়ে যাচ্ছে যা জাতির জন্য খুবই ভয়ানক । তাই অসাম্প্রদায়ীক বাংলাদেশ গড়ার লক্ষে আমরা বাঙালী জাতীয় জীবনের সকল সাংস্কৃতিক উৎসব পালন করে থাকি । যেমন: পহেলা বৈশাখ, নবান্ন উৎসব, স্বাধীনতা দিবস, বিজয় দিবস, একুশে ফেব্রুয়ারি, ইত্যাদি</p>
+                             </div>
+                         </div>
+                         <div class="activity-col col-lg-5 p-0  ">
+                             <div class=" p-4 ">
+                                 <i class="fas  p-3 fa-3x text-white rounded-circle fa-running styling-icon"></i>
+                                 <h2 class="fw-bold">Playing</h2>
+                                 <p class="">সুন্দর মন গঠনে ও মাদকমুক্ত সমাজ বিনির্মানে খেলা-ধুলার গুরোত্ব অপরিসীম।খেলা-ধুলা সুষ্ঠ মানসিক বিকাশে সহায়তা করে।খেলা-ধুলার মাধ্যমে শিশু-কিশোররা নেতৃত্ব দেওয়ার গুণাবলি অর্জন করে।খেলা-ধুলার মাধ্যমে মেনে নেওয়ার মানসিকতা তৈরি হয় যা ব্যক্তিত্য গঠনে গুরোত্বপূর্ণ ভূমিকা রাখে এবং মানুষের অপরাধ করার প্রবনতা হ্রাস করে।পারস্পরিক সহযোগিতার মনোভাব তৈরি করে।সমস্ত পৃথীবি এখন জঙ্গীবাদের এক ভয়াবহ হুমকির মধ্যে রয়েছে।বর্তমানে ইউনিভার্সিটির ছাত্ররাও এর সাথে জড়িয়ে যাচ্ছে। এর অন্যতম কারন খেলা-ধুলার প্রসার না ঘটানো।খেলা-ধুলার ফরে শিশু-কিশোরদের জঙ্গী মনোভাব দূর হয়। এক কথায় সুন্দর সমাজ নির্মানে খেলা-ধুলার ভূমিকা অপরিসীম।তাই সিরাজ চেয়ারম্যন স্পোর্টিং ক্লাবে সারা বছর বিভিন্ন ধরনের টুনামেন্ট আয়োজন করে থাকে।যেমন:বিজয় দিবস টুনামেন্ট,বঙ্গবন্ধু স্মৃতি ক্রিকেট টুনামেন্ট ,আরো অনেক।</p>
+                             </div>
+                         </div>
+                         <div class=" activity-col col-lg-5 p-0  ">
+                             <div class=" p-4 ">
+                                 <i class="fas  p-3 fa-3x text-white rounded-circle fa-users styling-icon"></i>
+                                 <h2 class="fw-bold">Social Work</h2>
+                                 <p class="">মানুষের সুখে-দুঃখে,বিভিন্ন সমস্যায় আমরা মানুষের পাশে সহযোগতিার হাত নিয়ে এগিয়ে যায়।সামাজিক যেকোন দূযোগে ক্লারে সদশ্যরা স্বক্রিয় ভূমিকা পালন করে। আমাদের এলাকর অবস্থান কিশোরগন্জ জেলার একেবারে সীমান্তবর্তী।আমেদের পরেই ময়মনসিংহ জেলা উপস্থিত। তাই আমরা স্বাভাবিকভাবেই জেলা শহর ও উপজেলা শহর হতে বিছিন্ন।একারনে আমাদের এলাকা খুবই অবহেলিত। কিশোরগন্জ জেলা ও আমাদের হোসেনপুর উপজেলার সাথে তাল মিলিয়ে আমাদের এলাকায় উন্নয়ন কর্ম-কান্ড হয় না। আমাদের এলাকার রাস্তাগুলো এখনো পাকা করন হয়নি।এই বিষয়গুলো জনপ্রতিনিধিদের দৃষ্টি আকর্ষনিই আমাদের দায়িত্ব।</p>
+                             </div>
+                         </div>
+                         <div class=" activity-col col-lg-5 p-0 ">
+                             <div class=" p-4 ">
+                                 <i class="fas  p-3 fa-3x text-white rounded-circle fa-user-shield styling-icon "></i>
+                                 <h2 class="fw-bold">Protest Against Injustice</h2>
+                                 <p class="">সমাজে একটা শোষক শ্রেনী আছে যারা সমাজের নিম্ন শ্রেনীর অসহায় ,দরিদ্র,খেটে খাওয়া সাধারন মানুষের ওপর শোষন,নিপীরণ ও অত্যাচার চালায়।সাধারন মানুষের ধন-সম্পদ কৌশলে লুন্ঠন করে। এসব সাধারন মানুষ দারিদ্রতা ও শিক্ষার অভাবের কারনে আইনের আশ্রয় নিতে পারে না । আমরা এসব অন্যায়ের বিরুদ্ধে সামাজিক ভাবে প্রতিরোধ গড়ে তুলি । আমরা সকল অন্যায়ের বিরুদ্ধে সর্বদায় স্বক্রিয় । তবে একটা কথা জেনে রাখা ভাল,এই ক্লাব কখনো সহিংস্র আন্দোলন করে না । আমরা অহিংস্রতায় বিশ্বাসী । অহিংস্রভাবে সকল সামাজিক অন্যায়ের বিরুদ্ধে লড়াই করি।</p>
+                             </div>
+                     
+                         </div>
+                     </div>
+                </div>
+            <!------------------------our activity section ends here------------------------------->
+            <!---------------------------members section starts here-------------------------------->
+            <div class="container">
+            <div class="row">
+                <h2 class="display-3 fw-bold mb-2 pt-3 text-center">Our Members</h2>
+                <div class="card-group mt-4 text-center member-section ">
+                    <div class="card m-4">
+                        <div class="styling-card">
+                        <div class="card-header my-color p-4"><h3 class="text-light">Elite Member</h3></div>
+                        <div class="card-body"><p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, error labore? Quas atque consequuntur porro consequatur libero error ut, dolore assumenda ullam beatae alias id quaerat! Natus reiciendis illo, laudantium rem veniam dolores, rerum incidunt suscipit pariatur officiis aspernatur vel?</p></div>
+                        <div class="mb-3 p-2"><button type="button" data-bs-toggle="modal" data-bs-target="#eliteModal" class="btn text-light my-color fw-bold theme p-3">Become Elite Member</button></div>
+                        </div>
+                    </div>
+                    <div class="card m-4 ">
+                    	<div class="styling-card">
+                        <div class="card-header bg-info p-4"><h3 class="text-light">Full Member</h3></div>
+                        <div class="card-body"><p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, error labore? Quas atque consequuntur porro consequatur libero error ut, dolore assumenda ullam beatae alias id quaerat! Natus reiciendis illo, laudantium rem veniam dolores, rerum incidunt suscipit pariatur officiis aspernatur vel?</p></div>
+                        <div class="mb-3 p-2"><button type="button" data-bs-toggle="modal" data-bs-target="#fullMemberModal" class="btn text-light bg-info theme p-3 fw-bold">Become Full Member</button></div>
+                        </div>
+                    </div>
+                    <div class="card  m-4">
+                    	<div class="styling-card">
+                        <div class="card-header bg-warning p-4"><h3 class="text-light">Associate Member</h3></div>
+                        <div class="card-body"><p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, error labore? Quas atque consequuntur porro consequatur libero error ut, dolore assumenda ullam beatae alias id quaerat! Natus reiciendis illo, laudantium rem veniam dolores, rerum incidunt suscipit pariatur officiis aspernatur vel?</p></div>
+                        <div class="mb-3 p-2"><a href="reg.html" class="btn text-light bg-warning fw-bold p-3 theme">Become Associate Member</a></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+            <!--elite  popup message starts here-->
+            <div class="modal fade" id="eliteModal" tabindex="-1" aria-labelledby="eliteModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header text-center align-items-center my-color text-light">
+                          <h4 class="text-center fw-bold d-block">এলিট সদস্য</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <p>সিরাজ চেয়ারম্যান স্পোর্টিং ক্লাব প্রতিষ্টার সময় ১৯ জন সদস্য ছিলো। যাদের অদম্য চেষ্টা, ত্যাগ, নিঃস্বার্থ শ্রম ইত্যাদির বিনিময়ে ও নানা রকম প্রতিবন্ধকতা এবং বিভিন্ন চরাই-উতরাই  পেরিয়ে ক্লাব প্রতিষ্টা হয়। যার জন্যই এই ১৯ জন সদস্যকে ক্লাবের এলিট সদস্য বলে অভিহিত করা হয়। তবে বর্তমানে এই ১৯ জন সদস্য থেকে কয়েকজন ক্লাব থেকে বহিস্কৃত হয়েছে। নতুন করে এলিট সদস্য আর অন্তর্ভুক্ত হবে না।</p>
+                          <strong>এলিট সদস্যদের লিস্ট দেখতে <a href="elite.html"> এখানে ক্লিক করুন</a></strong>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-lg my-color theme text-light" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    
+                     
+                  </div>
+                </div>
+              </div>
+            <!--elite  popup message ends here-->
+            <!--full member  popup message starts here-->
+            <div class="modal fade" id="fullMemberModal" tabindex="-1" aria-labelledby="fullMemberModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header text-center align-items-center bg-info text-light">
+                          <h4 class="text-center fw-bold d-block">পূর্ণ সদস্য</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <p>সিরাজ চেয়ারম্যান স্পোর্টিং ক্লাবে ভর্তি হবার পর তাকে সহযোগী বা সাধারণ সদস্য বলে অভিহিত করা হয়। অতঃপর উক্ত সদস্য ক্লাবের প্রচলিত ফান্ড একাউন্ট খোলার পর তাকে <b>পূর্ণ সদস্যতা</b> দেয়া হয় । এতএব পূর্ণ সদস্যতার জন্য ক্লাবের সাধারণ সদস্যকে অবশ্যই ফান্ড একাউন্ট খুলতে হবে। </p>
+                          <strong>ফান্ড একাউন্ট খুলতে <a href="#" class="link"> এখানে ক্লিক করুন</a></strong>
+                      </div>
+                      <div class="modal-footer">
+                          <a href="fullmember.html" class="btn  bg-info theme text-light ">পূর্ণ সদস্যদের লিস্ট দেখুন</a>
+                          <button type="button" class="btn bg-info theme text-light" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    
+                     
+                  </div>
+                </div>
+              </div>
+            <!--full member  popup message ends here-->
+            <!--members section ends here-->
+            
+        </main>
+    <!--carousel slider end here-->
+      
+
+ 
+    <!--follow us on social media starts here-->
+        <div class="row mt-2">
+		    <h2 class="fw-bold text-center dispalay-5">Follow Us On Social Media</h2>
+		    <div class="social-media row">
+			    <a class="col-md-6" href="https://www.facebook.com/tlosc"><i class="fab fa-facebook"></i></a>
+			    <a class="col-md-6" href="#"><i class="fab fa-youtube"></i></a>
+			    <a class="col-md-4" href="#"><i class="fab fa-twitter"></i></a>
+			    <a class="col-md-4" href="#"><i class="fab fa-whatsapp"></i></a>
+			    <a class="col-md-4" href="#"><i class="fab fa-linkedin"></i></a>
+		    </div>
+	    </div>
+    <!--follow us on social media ends here-->
+    
+  <!--Footer section start from here-->
+  <footer class="styling-footer" id="scrollspyContactUs">
+    <div>
+        <div  class="row ">
+            <div class="col-md-4 ">
+                <h2 class="text-success text-center fw-bold">SCSC</h2>
+                <hr class="text-success text-center fw-bold">
+                <p>siraz chairman sporting club eastablish in 2014. our aim to make society peaceful. and keep our bangali culture. we are trying to maintain it. few words about our club should be writen here. thank you for visiting us</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-success text-center fw-bold">Contact us</h2>
+                <hr>
+                <ul class="list-unstyled ">
+                    <li><i class="fas fa-home"></i>&nbsp; Taltola, Hazipur, Hossainpur, Kishoreganj</li>
+                    <li><i class="fas fa-phone"></i>&nbsp; +88015000000000</li>
+                    <li><i class="fas fa-envelope"></i>&nbsp; thelegendsofsirazchairman@gmail.com</li>
+                    <li><i class="fas fa-print"></i>&nbsp; fax no here.</li>	
+                </ul>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <h2 class="text-success fw-bold text-center"> Developed by</h2>
+                <hr>
+                <div class="developer">
+                    <img src="images/developer.jpg" alt="developer">
+                    <strong class="d-block mt-2">Hridoy Khan</strong>
+                    <p>Founder of Hridoy Academy</p>
+                </div>	
+            </div>	
+        </div>
+        <hr class="mt-4">
+        <div class="row d-flex text-center">
+            <p>
+                &copy; Copyright 2021 All Rights Reserved BY:
+                <a href="index.html" style="text-decoration: none"><strong class="text-success">Siraz Chairman Sporting Club</strong></a>
+            </p>	
+        </div>
+     </div>
+  </footer>
+  <!--footer section end here-->
+
+
+</div>
+
+
+
+
+
+     
+    <script src="javascript/js.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

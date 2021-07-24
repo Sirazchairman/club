@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Members</title> 
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+    <header>
+    <!--navigation menu start from here-->
+    <nav class="navbar navbar-expand-xl navbar-light main-menu fixed-top"  >
+        <div class="container-fluid p-0 m-0 ">
+            <button class="navbar-toggler btn border-3 border-light ms-2" data-bs-toggle="collapse" data-bs-target="#main-menu">
+                <span class="navbar-toggler-icon ms-2 "></span>
+            </button>
+            <a class="navbar-brand fs-3 fw-bold me-4  p-0 " style="font-family: algerian, sans-serif;" href="index.html"><img src="images/mlogo.png" alt="brand" style="width:40px"> SCSC</a>
+            <div class="collapse navbar-collapse " id="main-menu">
+                <ul class="navbar-nav ms-3 fst-normal">
+                    <li class="nav-item styling-nav active ms-2 "><a class="nav-link active text-success fw-bold " href="index.html">Home</a></li>
+                    <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">About</a>
+                        <ul class="dropdown-menu">
+                            <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#mission">Mission</button></li>
+                            <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#vission">Vission</button></li>
+                            <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#values">Values</button></li>
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="constitution.html">Constitution</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Members</a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Elite members</a></li>
+                            <li><a class="dropdown-item" href="fullmember.html">Full members</a></li>
+                            <li><a class="dropdown-item" href="associatemember.html">Associate members</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown styling-nav"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Committee </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Central committee</a></li>
+                            <li><a class="dropdown-item" href="#">Organizing Committee</a></li>
+                            <li><a class="dropdown-item" href="#">Fund Committee</a></li>
+                        </ul>
+                   </li>
+                    <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Admission </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">New member</a></li>
+                            <li><a class="dropdown-item" href="#">Fund account</a></li>
+                        </ul>
+                   </li>
+                    <li class="nav-item styling-nav"><a class="nav-link" href="#">Events <sup class="bg-danger text-white">new</sup></a></li>
+                    <li class="nav-item styling-nav"><a class="nav-link" href="#scrollspyContactUs">Contact Us</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item styling-nav   m-2"><a class="btn border-2 border-success rounded fw-bold me-1 " href="login.html">Login</a></li>
+                    <li class="nav-item styling-nav  m-2"> <a class="btn border-2 border-success rounded fw-bold me-1 " href="reg.html">Signup</a></li>
+                    <li class="nav-item m-2">
+                        <form action="#" class="d-flex" >
+                            <input class="form-control me-1" type="search" placeholder="Search" aria-label="search">
+                            <button class="btn theme fw-bold border-2 border-success rounded" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>           
+        </div>
+    </nav>
+
+    </header>
+    <!-----------navigation menu ends here------------>
+
+    <!---------------Our mission, vission, values section starts here-------------->
+
+        <!--------Mission starts here-------->
+             <!-- Modal -->
+             <div class="modal fade" id="mission" tabindex="-1" aria-labelledby="missionLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="missionLabel">আমাদের মিশন</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <p>
+                                *** আমাদের  মিশন হচ্ছে সমাজে খেলাধুলার মাধ্যমে  সুন্দর মনের বিকাশ, বাঙালি সংস্কৃতি রক্ষা, নৈতিক শিক্ষা দান, সামাজিক মূল্যবোধ বৃদ্ধি, ভ্রাতৃত্ববোধ স্থাপন, মাদকাসক্তি নিরাময়, দুর্বলের উপর সবলের নির্যাতন-নিপীড়ন অহিংস্রভাবে রোধ ইত্যাদির মাধ্যমে একটি সুশিল ও আদর্শ যুব সমাজ গড়ে তোলা।***
+                            </p>
+                            <hr>
+                             <p>
+                               *** Our mission is to develop a beautiful mind in the society through sports, to preserve Bengali culture, to impart moral education, to increase social values, to establish brotherhood, to cure drug addiction, to build a civilized and ideal youth society by non-violently preventing oppression of the weak.***
+                            </p>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#vission">See Our Vission</button>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#values">See Our Values</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------Mission ends here------>
+
+        <!--------vission starts here-------->
+             <!-- Modal -->
+             <div class="modal fade" id="vission" tabindex="-1" aria-labelledby="vissionLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="vissionLabel">আমাদের ভিশন</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <p>
+                                *** আমাদের ভিশন হচ্ছে আমরা এমন একটি সমাজব্যবস্থা গড়তে চাই যেখানে সমাজের সর্বস্তরের মানুষ একি ছাদের নিচে চলে আসবে যেখানে থাকবেনা কোনও ধনী-গরিব, দূর্বল-সবল, বর্ণ-বৈষম্য ইত্যাদির ভেদাভেদ। এবং এমন একটি সংস্থা গড়তে চাই যা আজীবন উক্ত মিশন ও ভিশন তদারকি ও সংরক্ষন করে সমাজকল্যাণ তথা মানবকল্যাণে নিঃস্বার্থভাবে কাজ করবে।***
+                            </p>
+                            <hr>
+                             <p>
+                               *** Our vision is that we want to build a society where people from all walks of life will come under one roof where there will be no discrimination between rich and poor, weak and strong, caste and inequality. And we want to build an organization that will work selflessly for social welfare and human welfare by supervising and preserving that mission and vision for life.***
+                            </p>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#values">See Our Values</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------vission ends here------>
+
+
+        <!--------values starts here-------->
+             <!-- Modal -->
+             <div class="modal fade" id="values" tabindex="-1" aria-labelledby="valuesLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="valuesLabel">আমাদের ভ্যালুস</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <ul >
+                                <li><strong>সততা - </strong>আমরা ক্লাবের স্বার্থে, ক্লাব সদস্যদের স্বার্থে, সমাজের স্বার্থে, দেশের স্বার্থে সর্বাবস্থায় সৎ থাকব।</li>
+                                <li><strong>সম্মান - </strong>আমরা ক্লাবের ছোট বড় সবাইকে যথযথ সম্মান প্রদর্শন করবো। কারোও সম্মানহানি  হয় এমন কিছু করা যাবে না।</li>
+                                <li><strong>দলবদ্ধভাবে কাজ - </strong>ক্লাবের যেকোনো কাজ আমরা সম্মিলিতভাবে সম্পাদন করার চেষ্টা করবো।</li>
+                                <hr>
+                                <li><strong>Honesty - </strong>We will be honest in the interest of the club, in the interest of the club members, in the interest of the society, in the interest of the country.</li>
+                                <li><strong>Respect -</strong> We will show due respect to everyone in the club, big and small. Nothing can be done that dishonors anyone.</li>
+                                <li><strong>Team work -</strong> We will try to perform any work of the club together.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------values ends here------>
+
+
+
+    <!---------------Our mission, vission, values section ends here-------------->
+
+
+    <!------------------------Elite member starts from here------------------>
+            <div class="container mt-5">
+                <div class="row">
+                    <h2 class="col-md-12 text-center fw-bold mt-3 pt-5 display-5">Elite Members</h2>
+                    <div class="col-lg-3 g-3 rounded">
+                        <div class="card members">
+                            <div class="card-header p-5 my-color"></div>
+                            <div class="card-body text-center">
+                                <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                <p class="fw-bold">Developer</p>
+                                <p class="m-0">Club ID: 10</p>
+                                <p>Mobile No: 01518000000</p>
+                                <button class="btn theme" type="button">See Details</button>
+
+                            </div>
+                            <div class="card-footer my-color py-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 g-3 rounded">
+                        <div class="card members">
+                            <div class="card-header p-5 my-color"></div>
+                            <div class="card-body text-center">
+                                <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                <p class="fw-bold">Developer</p>
+                                <p class="m-0">Club ID: 10</p>
+                                <p>Mobile No: 01518000000</p>
+                                <button class="btn theme" type="button">See Details</button>
+
+                            </div>
+                            <div class="card-footer my-color py-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 g-3 rounded">
+                        <div class="card members">
+                            <div class="card-header p-5 my-color"></div>
+                            <div class="card-body text-center">
+                                <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                <p class="fw-bold">Developer</p>
+                                <p class="m-0">Club ID: 10</p>
+                                <p>Mobile No: 01518000000</p>
+                                <button class="btn theme" type="button">See Details</button>
+
+                            </div>
+                            <div class="card-footer my-color py-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 g-3 rounded">
+                        <div class="card members">
+                            <div class="card-header p-5 my-color"></div>
+                            <div class="card-body text-center">
+                                <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                <p class="fw-bold">Developer</p>
+                                <p class="m-0">Club ID: 10</p>
+                                <p>Mobile No: 01518000000</p>
+                                <button class="btn theme" type="button">See Details</button>
+
+                            </div>
+                            <div class="card-footer my-color py-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 g-3 rounded">
+                        <div class="card members">
+                            <div class="card-header p-5 my-color"></div>
+                            <div class="card-body text-center">
+                                <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                <p class="fw-bold">Developer</p>
+                                <p class="m-0">Club ID: 10</p>
+                                <p>Mobile No: 01518000000</p>
+                                <button class="btn theme" type="button">See Details</button>
+
+                            </div>
+                            <div class="card-footer my-color py-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 g-3 rounded">
+                        <div class="card members">
+                            <div class="card-header p-5 my-color"></div>
+                            <div class="card-body text-center">
+                                <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                <p class="fw-bold">Developer</p>
+                                <p class="m-0">Club ID: 10</p>
+                                <p>Mobile No: 01518000000</p>
+                                <button class="btn theme" type="button">See Details</button>
+
+                            </div>
+                            <div class="card-footer my-color py-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 g-3 rounded">
+                        <div class="card members">
+                            <div class="card-header p-5 my-color"></div>
+                            <div class="card-body text-center">
+                                <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                <p class="fw-bold">Developer</p>
+                                <p class="m-0">Club ID: 10</p>
+                                <p>Mobile No: 01518000000</p>
+                                <button class="btn theme" type="button">See Details</button>
+
+                            </div>
+                            <div class="card-footer my-color py-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 g-3 rounded">
+                        <div class="card members">
+                            <div class="card-header p-5 my-color"></div>
+                            <div class="card-body text-center">
+                                <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                <p class="fw-bold">Developer</p>
+                                <p class="m-0">Club ID: 10</p>
+                                <p>Mobile No: 01518000000</p>
+                                <button class="btn theme" type="button">See Details</button>
+
+                            </div>
+                            <div class="card-footer my-color py-2"></div>
+                        </div>
+                    </div>
+                    <!------------collapsable card starts form here--------------->
+                    <div class="text-center">
+                        <button class="btn theme btn-lg my-5 p-2 " type="button" data-bs-toggle="collapse" data-bs-target="#memberss">See More</button>
+                    </div>
+                    <div class="collapse row" id="memberss">
+                        <div class="col-lg-3 g-3 rounded">
+                            <div class="card members">
+                                <div class="card-header p-5 my-color"></div>
+                                <div class="card-body text-center">
+                                    <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                    <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                    <p class="fw-bold">Developer</p>
+                                    <p class="m-0">Club ID: 10</p>
+                                    <p>Mobile No: 01518000000</p>
+                                    <button class="btn theme" type="button">See Details</button>
+    
+                                </div>
+                                <div class="card-footer my-color py-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 g-3 rounded">
+                            <div class="card members">
+                                <div class="card-header p-5 my-color"></div>
+                                <div class="card-body text-center">
+                                    <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                    <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                    <p class="fw-bold">Developer</p>
+                                    <p class="m-0">Club ID: 10</p>
+                                    <p>Mobile No: 01518000000</p>
+                                    <button class="btn theme" type="button">See Details</button>
+    
+                                </div>
+                                <div class="card-footer my-color py-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 g-3 rounded">
+                            <div class="card members">
+                                <div class="card-header p-5 my-color"></div>
+                                <div class="card-body text-center">
+                                    <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                    <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                    <p class="fw-bold">Developer</p>
+                                    <p class="m-0">Club ID: 10</p>
+                                    <p>Mobile No: 01518000000</p>
+                                    <button class="btn theme" type="button">See Details</button>
+    
+                                </div>
+                                <div class="card-footer my-color py-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 g-3 rounded">
+                            <div class="card members">
+                                <div class="card-header p-5 my-color"></div>
+                                <div class="card-body text-center">
+                                    <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                    <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                    <p class="fw-bold">Developer</p>
+                                    <p class="m-0">Club ID: 10</p>
+                                    <p>Mobile No: 01518000000</p>
+                                    <button class="btn theme" type="button">See Details</button>
+    
+                                </div>
+                                <div class="card-footer my-color py-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 g-3 rounded">
+                            <div class="card members">
+                                <div class="card-header p-5 my-color"></div>
+                                <div class="card-body text-center">
+                                    <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                    <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                    <p class="fw-bold">Developer</p>
+                                    <p class="m-0">Club ID: 10</p>
+                                    <p>Mobile No: 01518000000</p>
+                                    <button class="btn theme" type="button">See Details</button>
+    
+                                </div>
+                                <div class="card-footer my-color py-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 g-3 rounded">
+                            <div class="card members">
+                                <div class="card-header p-5 my-color"></div>
+                                <div class="card-body text-center">
+                                    <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                    <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                    <p class="fw-bold">Developer</p>
+                                    <p class="m-0">Club ID: 10</p>
+                                    <p>Mobile No: 01518000000</p>
+                                    <button class="btn theme" type="button">See Details</button>
+    
+                                </div>
+                                <div class="card-footer my-color py-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 g-3 rounded">
+                            <div class="card members">
+                                <div class="card-header p-5 my-color"></div>
+                                <div class="card-body text-center">
+                                    <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                    <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                    <p class="fw-bold">Developer</p>
+                                    <p class="m-0">Club ID: 10</p>
+                                    <p>Mobile No: 01518000000</p>
+                                    <button class="btn theme" type="button">See Details</button>
+    
+                                </div>
+                                <div class="card-footer my-color py-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 g-3 rounded">
+                            <div class="card members">
+                                <div class="card-header p-5 my-color"></div>
+                                <div class="card-body text-center">
+                                    <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                    <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                    <p class="fw-bold">Developer</p>
+                                    <p class="m-0">Club ID: 10</p>
+                                    <p>Mobile No: 01518000000</p>
+                                    <button class="btn theme" type="button">See Details</button>
+    
+                                </div>
+                                <div class="card-footer my-color py-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 g-3 rounded">
+                            <div class="card members">
+                                <div class="card-header p-5 my-color"></div>
+                                <div class="card-body text-center">
+                                    <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                    <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                    <p class="fw-bold">Developer</p>
+                                    <p class="m-0">Club ID: 10</p>
+                                    <p>Mobile No: 01518000000</p>
+                                    <button class="btn theme" type="button">See Details</button>
+    
+                                </div>
+                                <div class="card-footer my-color py-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 g-3 rounded">
+                            <div class="card members">
+                                <div class="card-header p-5 my-color"></div>
+                                <div class="card-body text-center">
+                                    <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                    <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                    <p class="fw-bold">Developer</p>
+                                    <p class="m-0">Club ID: 10</p>
+                                    <p>Mobile No: 01518000000</p>
+                                    <button class="btn theme" type="button">See Details</button>
+    
+                                </div>
+                                <div class="card-footer my-color py-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 g-3 rounded">
+                            <div class="card members">
+                                <div class="card-header p-5 my-color"></div>
+                                <div class="card-body text-center">
+                                    <img src="images/developer.jpg" alt="photo" class="img-fluid rounded-circle">
+                                    <h4 class="mt-3 fw-bold">Hridoy Khan</h4>
+                                    <p class="fw-bold">Developer</p>
+                                    <p class="m-0">Club ID: 10</p>
+                                    <p>Mobile No: 01518000000</p>
+                                    <button class="btn theme" type="button">See Details</button>
+    
+                                </div>
+                                <div class="card-footer my-color py-2"></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!------------collapsable card starts form here--------------->
+                </div>
+            </div>
+    <!------------------------Elite member starts from here------------------>
+
+   
+
+
+
+
+
+
+ 
+    <!------------------follow us on social media starts here---------------->
+        <div class="row mt-5">
+		    <h2 class="fw-bold text-center dispalay-5">Follow Us On Social Media</h2>
+		    <div class="social-media row">
+			    <a class="col-md-6" href="https://www.facebook.com/tlosc"><i class="fab fa-facebook"></i></a>
+			    <a class="col-md-6" href="#"><i class="fab fa-youtube"></i></a>
+			    <a class="col-md-4" href="#"><i class="fab fa-twitter"></i></a>
+			    <a class="col-md-4" href="#"><i class="fab fa-whatsapp"></i></a>
+			    <a class="col-md-4" href="#"><i class="fab fa-linkedin"></i></a>
+		    </div>
+	    </div>
+    <!--follow us on social media ends here-->
+    
+  <!--Footer section start from here-->
+  <footer class="styling-footer" id="scrollspyContactUs">
+    <div>
+        <div  class="row ">
+            <div class="col-md-4 ">
+                <h2 class="text-success text-center fw-bold">SCSC</h2>
+                <hr class="text-success text-center fw-bold">
+                <p>siraz chairman sporting club eastablish in 2014. our aim to make society peaceful. and keep our bangali culture. we are trying to maintain it. few words about our club should be writen here. thank you for visiting us</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-success text-center fw-bold">Contact us</h2>
+                <hr>
+                <ul class="list-unstyled ">
+                    <li><i class="fas fa-home"></i>&nbsp; Taltola, Hazipur, Hossainpur, Kishoreganj</li>
+                    <li><i class="fas fa-phone"></i>&nbsp; +88015000000000</li>
+                    <li><i class="fas fa-envelope"></i>&nbsp; thelegendsofsirazchairman@gmail.com</li>
+                    <li><i class="fas fa-print"></i>&nbsp; fax no here.</li>	
+                </ul>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <h2 class="text-success fw-bold text-center"> Developed by</h2>
+                <hr>
+                <div class="developer">
+                    <img src="images/developer.jpg" alt="developer">
+                    <strong class="d-block mt-2">Hridoy Khan</strong>
+                    <p>Founder of Hridoy Academy</p>
+                </div>	
+            </div>	
+        </div>
+        <hr class="mt-4">
+        <div class="row d-flex text-center">
+            <p>
+                &copy; Copyright 2021 All Rights Reserved BY:
+                <a href="index.html" style="text-decoration: none"><strong class="text-success">Siraz Chairman Sporting Club</strong></a>
+            </p>	
+        </div>
+     </div>
+  </footer>
+  <!--footer section end here-->
+
+
+</div>
+
+
+
+
+
+     
+    <script src="javascript/js.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

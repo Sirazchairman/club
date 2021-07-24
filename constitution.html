@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siraj Chairman Sporting Club</title> 
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+    <header>
+    <!--navigation menu start from here-->
+    <nav class="navbar navbar-expand-xl navbar-light main-menu fixed-top"  >
+        <div class="container-fluid p-0 m-0 ">
+            <button class="navbar-toggler btn border-3 border-light ms-2" data-bs-toggle="collapse" data-bs-target="#main-menu">
+                <span class="navbar-toggler-icon ms-2 "></span>
+            </button>
+            <a class="navbar-brand fs-3 fw-bold me-4  p-0 " style="font-family: algerian, sans-serif;" href="index.html"><img src="images/mlogo.png" alt="brand" style="width:40px"> SCSC</a>
+            <div class="collapse navbar-collapse " id="main-menu">
+                <ul class="navbar-nav ms-3 fst-normal">
+                    <li class="nav-item styling-nav active ms-2 "><a class="nav-link active text-success fw-bold " href="index.html">Home</a></li>
+                    <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">About</a>
+                        <ul class="dropdown-menu">
+                            <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#mission">Mission</button></li>
+                            <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#vission">Vission</button></li>
+                            <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#values">Values</button></li>
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="constitution.html">Constitution</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Members</a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="elite.html">Elite members</a></li>
+                            <li><a class="dropdown-item" href="fullmember.html">Full members</a></li>
+                            <li><a class="dropdown-item" href="associatemember.html">Associate members</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown styling-nav"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Committee </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Central committee</a></li>
+                            <li><a class="dropdown-item" href="#">Organizing Committee</a></li>
+                            <li><a class="dropdown-item" href="#">Fund Committee</a></li>
+                        </ul>
+                   </li>
+                    <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Admission </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">New member</a></li>
+                            <li><a class="dropdown-item" href="#">Fund account</a></li>
+                        </ul>
+                   </li>
+                    <li class="nav-item styling-nav"><a class="nav-link" href="#">Events <sup class="bg-danger text-white">new</sup></a></li>
+                    <li class="nav-item styling-nav"><a class="nav-link" href="#scrollspyContactUs">Contact Us</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item styling-nav   m-2"><a class="btn border-2 border-success rounded fw-bold me-1 " href="login.html">Login</a></li>
+                    <li class="nav-item styling-nav  m-2"> <a class="btn border-2 border-success rounded fw-bold me-1 " href="reg.html">Signup</a></li>
+                    <li class="nav-item m-2">
+                        <form action="#" class="d-flex" >
+                            <input class="form-control me-1" type="search" placeholder="Search" aria-label="search">
+                            <button class="btn theme fw-bold border-2 border-success rounded" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>           
+        </div>
+    </nav>
+
+    </header>
+    <!-----------navigation menu ends here------------>
+
+    <!---------------Our mission, vission, values section starts here-------------->
+
+        <!--------Mission starts here-------->
+             <!-- Modal -->
+             <div class="modal fade" id="mission" tabindex="-1" aria-labelledby="missionLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="missionLabel">আমাদের মিশন</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <p>
+                                *** আমাদের  মিশন হচ্ছে সমাজে খেলাধুলার মাধ্যমে  সুন্দর মনের বিকাশ, বাঙালি সংস্কৃতি রক্ষা, নৈতিক শিক্ষা দান, সামাজিক মূল্যবোধ বৃদ্ধি, ভ্রাতৃত্ববোধ স্থাপন, মাদকাসক্তি নিরাময়, দুর্বলের উপর সবলের নির্যাতন-নিপীড়ন অহিংস্রভাবে রোধ ইত্যাদির মাধ্যমে একটি সুশিল ও আদর্শ যুব সমাজ গড়ে তোলা।***
+                            </p>
+                            <hr>
+                             <p>
+                               *** Our mission is to develop a beautiful mind in the society through sports, to preserve Bengali culture, to impart moral education, to increase social values, to establish brotherhood, to cure drug addiction, to build a civilized and ideal youth society by non-violently preventing oppression of the weak.***
+                            </p>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#vission">See Our Vission</button>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#values">See Our Values</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------Mission ends here------>
+
+        <!--------vission starts here-------->
+             <!-- Modal -->
+             <div class="modal fade" id="vission" tabindex="-1" aria-labelledby="vissionLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="vissionLabel">আমাদের ভিশন</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <p>
+                                *** আমাদের ভিশন হচ্ছে আমরা এমন একটি সমাজব্যবস্থা গড়তে চাই যেখানে সমাজের সর্বস্তরের মানুষ একি ছাদের নিচে চলে আসবে যেখানে থাকবেনা কোনও ধনী-গরিব, দূর্বল-সবল, বর্ণ-বৈষম্য ইত্যাদির ভেদাভেদ। এবং এমন একটি সংস্থা গড়তে চাই যা আজীবন উক্ত মিশন ও ভিশন তদারকি ও সংরক্ষন করে সমাজকল্যাণ তথা মানবকল্যাণে নিঃস্বার্থভাবে কাজ করবে।***
+                            </p>
+                            <hr>
+                             <p>
+                               *** Our vision is that we want to build a society where people from all walks of life will come under one roof where there will be no discrimination between rich and poor, weak and strong, caste and inequality. And we want to build an organization that will work selflessly for social welfare and human welfare by supervising and preserving that mission and vision for life.***
+                            </p>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#values">See Our Values</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------vission ends here------>
+
+
+        <!--------values starts here-------->
+             <!-- Modal -->
+             <div class="modal fade" id="values" tabindex="-1" aria-labelledby="valuesLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="valuesLabel">আমাদের ভ্যালুস</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <ul >
+                                <li><strong>সততা - </strong>আমরা ক্লাবের স্বার্থে, ক্লাব সদস্যদের স্বার্থে, সমাজের স্বার্থে, দেশের স্বার্থে সর্বাবস্থায় সৎ থাকব।</li>
+                                <li><strong>সম্মান - </strong>আমরা ক্লাবের ছোট বড় সবাইকে যথযথ সম্মান প্রদর্শন করবো। কারোও সম্মানহানি  হয় এমন কিছু করা যাবে না।</li>
+                                <li><strong>দলবদ্ধভাবে কাজ - </strong>ক্লাবের যেকোনো কাজ আমরা সম্মিলিতভাবে সম্পাদন করার চেষ্টা করবো।</li>
+                                <hr>
+                                <li><strong>Honesty - </strong>We will be honest in the interest of the club, in the interest of the club members, in the interest of the society, in the interest of the country.</li>
+                                <li><strong>Respect -</strong> We will show due respect to everyone in the club, big and small. Nothing can be done that dishonors anyone.</li>
+                                <li><strong>Team work -</strong> We will try to perform any work of the club together.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------values ends here------>
+
+
+
+    <!---------------Our mission, vission, values section ends here-------------->
+
+
+
+    <div class="container p-5 constitution bg-light ">
+        <h1 class="text-center fw-bold py-5">ক্লাবের নীতিমালা সমূহ</h1>
+        <ul class="py-5">
+            <li>
+                <h3 class="fw-bold text-center">নামকরণ</h3>
+                <p>১) ক্লাবের নাম সিরাজ চেয়ারম্যান স্পোর্টিং ক্লাব। ক্লাবের নাম পরিবর্তন করা যাবে না। তবে নাম সংশোধন করা যাবে। এখানে সংশোধন বলতে ক্লাবের বর্তমান নাম হতে দু একটি শব্দ বা অক্ষর বাদ দেয়া বা যোগ করাকে বুঝানো হয়েছে। ক্লাবের নাম উক্ত ব্যাক্তির নামেই( সিরাজ চেয়ারম্যান) হতে হবে। (এক্ষেত্রে কেন্দ্রীয় কমিটির সংখ্যাগরিষ্টতার মতামত ও সভাপতির সম্মতি থাকতে হবে)। </p>
+            </li>
+            <li>
+                <h3 class="fw-bold text-center">পদাবলি ও ক্ষমতা</h3>
+                <p>১) ক্লাবে ৮ সদস্য বিশিষ্ট কেন্দীয় কমিটি ও একজন সভাপতি থাকবেন। এবং কেন্দ্রীয় কমিটি ও সভাপতি অন্যান্য প্রয়োজনীয় পদাবলি বন্টণ ও ক্ষমতা আরোপ করবেন। কেন্দ্রীয় কমিটির পদ সংখ্যা (৮) ইহা কেউ পরিবর্তন করতে পারবে না।
+                    <br> ২) সভাপতি, কেন্দ্রীয় কমিঠি ও অন্যান্য পদের ক্ষমতার মেয়াদ সর্বোচ্চ দুই বছর। প্রতি দুই বছর পর পর নির্বাচনের মাধ্যমে সভাপতি, কেন্দ্রীয় কমিটি গঠন করা হবে। 
+                    <br> ৩) ক্লাবের যে কোন সিদ্ধান্ত গ্রহণে পরিচালনা কমিটির সংখ্যাগরিষ্ঠতার মতামত ও সভাপতির সম্মতি থাকতে হবে।
+                </p>
+            </li>
+            <li>
+                <h3 class="fw-bold text-center">নির্বাচন</h3>
+                <p>১) বর্তমান সভাপতি ও কেন্দ্রীয় কমিটির মেয়াদ শেষ হওয়ার দুই মাস পূর্বেই নতুন সভাপতি ও কেন্দ্রীয় কমিটি নির্বাচন করতে হবে।
+                    <br> ২) নতুন সভাপতি ও কেন্দ্রীয় কমিটি নির্বাচনের দায়িত্ব বর্তমান সভাপতি ও কেন্দ্রীয় কমিটির কাছে থাকবে।
+                    <br>৩) নতুন কেন্দ্রীয় কমিটি গঠিত হওয়ার পর তাদের ভোটের সংখ্যাগরিষ্ঠতার ভিত্তিতে নতুন সভাপতি নির্বাচিত হবে।
+                    <br>৪) সভাপতি নির্বাচনে ক্লাবের যে কোন  পূর্ণাঙ্গ সদস্য এর পার্থী হতে পারবেন। এজন্য পার্থীকে বর্তমান সভাপতির কাছ থেকে মনোনয়ন নিতে হবে।
+                    <br>৫)  যে কোন ভোটার স্বতন্ত্রভাবে তার ভোট প্রদান করতে পারবে। সভাপতি ও কেন্দ্রীয় কমিটি নির্বাচনের পার্থীরা কোন ভোটারকে জোর বা বাধ্য করতে পারবে না তাকে ভোট দেয়ার জন্য। যদি এ রকম কোন পরিস্থিতি লক্ষ্য করা যায় তাহলেনির্বাচন কমিটি উক্ত ব্যাক্তির পার্থীতা বাতিল করবে।
+                    <br>৬) কেন্দ্রীয় কমিটি নির্বাচন সকল পূর্ণাঙ্গ সদস্যদের নিয়ে করা হবে। প্রতিটি সদস্য সর্বোচ্চ একজনকে সমর্থন দিতে পারবে। এক্ষেত্রে নিজের সমর্থন ইচ্ছে করলে নিজেকে দিতে পারবে। যেহেতু ক্লাবে ৮ সদস্য বিশিষ্ট কেন্দ্রীয় কমিটি গঠিত হবে সেহেতু, মোট পূর্ণাঙ্গ সদস্যকে ৮ দিয়ে ভাগ করার পর ভাগফলের সমপরিমাণ সমর্থন যদি কোন সদস্য পায় তাহলে সে সরাসরি কেন্দ্রীয় কমিটিতে নিযুক্ত হবে। এবং তার আর অতিরিক্ত কোন সমর্থনের প্রয়োজন নেই। এভাবেই নির্বাচন প্রক্রিয়া চলতে থাকবে। যদি ভাগফলের সমপরিমাণ সমর্থন কোন সদস্য না পায় এবং কেন্দ্রীয় কমিটি পদ সংখ্যা খালি থাকে তাহলে সংখ্যাগরিষ্ঠতার সমর্থন অনুযায়ী নির্বাচন করা হবে। এতে সংখ্যাগরিষ্ঠদের মাঝে সমর্থনের সমতা থাকলে তাহলে  সংখ্যালঘু  পার্থীদের সমর্থক নতুন করে ঐ সংখ্যাগরিষ্ঠ সমতায় আসা পার্থীদের সমর্থন প্রদান করবে।
+                    <br>৭) নির্বাচনে সকল পূর্ণ সদস্যদের অংশ নিতে হবে। নির্বাচন সকলের উপস্থিতিতে আনুষ্ঠানিকভাবে করা হবে।
+                    <br>৮) যে সদস্যদের সমর্থনে যে কেন্দ্রীয় কমিটির সদস্য হবে সে উক্ত সদস্যদের সার্বিক তত্ত্বাবধান করবে।
+                </p>
+            </li>
+            <li>
+                <h3 class="fw-bold text-center">সদস্য</h3>
+                <p>১) ক্লাবে দুই ধরনের সদস্য থাকবে i) সাধারণ সদস্য  ও ii) পূর্ণ সদস্য ।  ক্লাবে ভর্তি হওয়ার পর সদস্যকে একজন সাধারণ সদস্য বলে গণ্য করা হবে এবং উক্ত সদস্য যদি ক্লাবের প্রচলিত তহবিল হিসাব খোলেন তখন তাকে পূর্ণ সদস্যতা দেয়া হবে।
+                    <br> ২) ক্লাবের কোন সদস্য ক্লাবের নিয়ম বহির্ভুত কোন কাজ করলে ক্লাব কর্তৃপক্ষ  উক্ত সদস্যর সদস্যতা বাতিল করতে পারেন।
+                    <br> ৩) কোন সদস্য ক্লাব থেকে অব্যাহতি নিতে চাইলে ক্লাবের নির্ধারিত ফরমেটে কমপক্ষে ১ মাস আগে অব্যাহতি পত্র দিতে হবে। এবং ক্লাবে যদি উক্ত সদস্যর কোন দেনা-পাওনা থাকে তাহলে তা ক্লাবের তহবিল হিসাব এর নীতিমালা অনুযায়ী ব্যহস্থা নেয়া হবে।
+                     </p>
+            </li>
+            <li>
+                <h3 class="fw-bold text-center">তহবিল হিসাব</h3>
+                <p>১) ক্লাবের সকল সদস্যই ক্লাবের নির্ধারিত নিয়ম অনুযায়ী ক্লাবে তহবিল হিসাব খুলতে পারবেন। 
+                   <br> ২) তহবিল হিসাব খোলার পর উক্ত সদস্য পূর্ণ সদস্যতা লাভ করবেন।
+                   <br> ৩) তহবিল সংক্রান্ত সকল নিয়মনীতি তহবিল হিসাব খোলার আবেদন পত্রের সাথে সংযুক্ত রয়েছে। এবং তহবিল ঐ নিয়ম অনুযায়ী পরিচালিত হবে।
+                     </p>
+            </li>
+            <li>
+                <h3 class="fw-bold text-center">খেলাধুলা ও সংস্কৃতি</h3>
+                <p>১) প্রতি বছর ডিসেম্বর মাসে বিজয় দিবস ক্রিকেট টুনামেন্ট আয়োজন করা বাধ্যতামুলক।  </p>
+            </li>
+            <li>
+                <h3 class="fw-bold text-center">অন্যান্য</h3>
+                <p>
+                    ১) ক্লাব সম্পূর্ণ রাজনীতি নিরপেক্ষ। 
+                   <br> ২) যদি ক্লাবের কোন সদস্য অসামাজিক বা আইনবিরোধী কোন কাজে লিপ্ত হয় তাহলে উক্ত কাজের দায়ভার ক্লাব বা ক্লাব কর্তৃপক্ষ কখনই বহন করবে না। এমনকি উক্ত সদস্য ক্লাব থেকে বহিষ্কারও হতে পারেন।
+                   <br> ৩) ক্লাবের সকল নিয়মনীতি কখনো পরিবর্তন করা যাবে না। তবে কোন নতুন নিয়মনীতি ক্লাবের কল্যাণার্থে সংযোজন করা যাবে। এক্ষেত্রে সভাপতির মতামত ও কেন্দ্রীয় কমিটির সংখ্যাগরিষ্ঠতার মতামত থাকতে হবে।
+                </p>
+            </li>
+            <hr>
+            <h4 class="fw-bold text-center" >সমাপ্ত</h4>
+            
+        </ul>
+       
+
+
+    </div>
+
+
+
+
+
+
+
+ 
+    <!--follow us on social media starts here-->
+        <div class="row mt-2">
+		    <h2 class="fw-bold text-center dispalay-5">Follow Us On Social Media</h2>
+		    <div class="social-media row">
+			    <a class="col-md-6" href="https://www.facebook.com/tlosc"><i class="fab fa-facebook"></i></a>
+			    <a class="col-md-6" href="#"><i class="fab fa-youtube"></i></a>
+			    <a class="col-md-4" href="#"><i class="fab fa-twitter"></i></a>
+			    <a class="col-md-4" href="#"><i class="fab fa-whatsapp"></i></a>
+			    <a class="col-md-4" href="#"><i class="fab fa-linkedin"></i></a>
+		    </div>
+	    </div>
+    <!--follow us on social media ends here-->
+    
+  <!--Footer section start from here-->
+  <footer class="styling-footer" id="scrollspyContactUs">
+    <div>
+        <div  class="row ">
+            <div class="col-md-4 ">
+                <h2 class="text-success text-center fw-bold">SCSC</h2>
+                <hr class="text-success text-center fw-bold">
+                <p>siraz chairman sporting club eastablish in 2014. our aim to make society peaceful. and keep our bangali culture. we are trying to maintain it. few words about our club should be writen here. thank you for visiting us</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-success text-center fw-bold">Contact us</h2>
+                <hr>
+                <ul class="list-unstyled ">
+                    <li><i class="fas fa-home"></i>&nbsp; Taltola, Hazipur, Hossainpur, Kishoreganj</li>
+                    <li><i class="fas fa-phone"></i>&nbsp; +88015000000000</li>
+                    <li><i class="fas fa-envelope"></i>&nbsp; thelegendsofsirazchairman@gmail.com</li>
+                    <li><i class="fas fa-print"></i>&nbsp; fax no here.</li>	
+                </ul>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <h2 class="text-success fw-bold text-center"> Developed by</h2>
+                <hr>
+                <div class="developer">
+                    <img src="images/developer.jpg" alt="developer">
+                    <strong class="d-block mt-2">Hridoy Khan</strong>
+                    <p>Founder of Hridoy Academy</p>
+                </div>	
+            </div>	
+        </div>
+        <hr class="mt-4">
+        <div class="row d-flex text-center">
+            <p>
+                &copy; Copyright 2021 All Rights Reserved BY:
+                <a href="index.html" style="text-decoration: none"><strong class="text-success">Siraz Chairman Sporting Club</strong></a>
+            </p>	
+        </div>
+     </div>
+  </footer>
+  <!--footer section end here-->
+
+
+</div>
+
+
+
+
+
+     
+    <script src="javascript/js.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

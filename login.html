@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title> 
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="myFunction()">
+    <div id="loading"></div><!--this is preloader code-->
+
+    <header>
+        <!--navigation menu start from here-->
+        <nav class="navbar navbar-expand-xl navbar-light main-menu fixed-top"  >
+            <div class="container-fluid p-0 m-0 ">
+                <button class="navbar-toggler btn border-3 border-light ms-2" data-bs-toggle="collapse" data-bs-target="#main-menu">
+                    <span class="navbar-toggler-icon ms-2 "></span>
+                </button>
+                <a class="navbar-brand fs-3 fw-bold me-4  p-0 " style="font-family: algerian, sans-serif;" href="index.html"><img src="images/mlogo.png" alt="brand" style="width:40px"> SCSC</a>
+                <div class="collapse navbar-collapse " id="main-menu">
+                    <ul class="navbar-nav ms-3 fst-normal">
+                        <li class="nav-item styling-nav active ms-2 "><a class="nav-link active text-success fw-bold " href="index.html">Home</a></li>
+                        <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">About</a>
+                            <ul class="dropdown-menu">
+                                <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#mission">Mission</button></li>
+                                <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#vission">Vission</button></li>
+                                <li><button  type="button" class="dropdown-item " data-bs-toggle="modal" data-bs-target="#values">Values</button></li>
+                                <li><a class="dropdown-item" href="#">History</a></li>
+                                <li><a class="dropdown-item" href="constitution.html">Constitution</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Members</a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="elite.html">Elite members</a></li>
+                                <li><a class="dropdown-item" href="fullmember.html">Full members</a></li>
+                                <li><a class="dropdown-item" href="associatemember.html">Associate members</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown styling-nav"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Committee </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#">Central committee</a></li>
+                                <li><a class="dropdown-item" href="#">Organizing Committee</a></li>
+                                <li><a class="dropdown-item" href="#">Fund Committee</a></li>
+                            </ul>
+                       </li>
+                        <li class="nav-item styling-nav dropdown"><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Admission </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#">New member</a></li>
+                                <li><a class="dropdown-item" href="#">Fund account</a></li>
+                            </ul>
+                       </li>
+                        <li class="nav-item styling-nav"><a class="nav-link" href="#">Events <sup class="bg-danger text-white">new</sup></a></li>
+                        <li class="nav-item styling-nav"><a class="nav-link" href="#scrollspyContactUs">Contact Us</a></li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item styling-nav   m-2"><a class="btn border-2 border-success rounded fw-bold me-1 " href="login.html">Login</a></li>
+                        <li class="nav-item styling-nav  m-2"> <a class="btn border-2 border-success rounded fw-bold me-1 " href="reg.html">Signup</a></li>
+                        <li class="nav-item m-2">
+                            <form action="#" class="d-flex" >
+                                <input class="form-control me-1" type="search" placeholder="Search" aria-label="search">
+                                <button class="btn theme fw-bold border-2 border-success rounded" type="submit">Search</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>           
+            </div>
+        </nav>
+    
+    </header>
+        <!-----------navigation menu ends here------------>
+
+        <!---------------Our mission, vission, values section starts here-------------->
+
+        <!--------Mission starts here-------->
+             <!-- Modal -->
+             <div class="modal fade" id="mission" tabindex="-1" aria-labelledby="missionLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="missionLabel">আমাদের মিশন</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <p>
+                                *** আমাদের  মিশন হচ্ছে সমাজে খেলাধুলার মাধ্যমে  সুন্দর মনের বিকাশ, বাঙালি সংস্কৃতি রক্ষা, নৈতিক শিক্ষা দান, সামাজিক মূল্যবোধ বৃদ্ধি, ভ্রাতৃত্ববোধ স্থাপন, মাদকাসক্তি নিরাময়, দুর্বলের উপর সবলের নির্যাতন-নিপীড়ন অহিংস্রভাবে রোধ ইত্যাদির মাধ্যমে একটি সুশিল ও আদর্শ যুব সমাজ গড়ে তোলা।***
+                            </p>
+                            <hr>
+                             <p>
+                               *** Our mission is to develop a beautiful mind in the society through sports, to preserve Bengali culture, to impart moral education, to increase social values, to establish brotherhood, to cure drug addiction, to build a civilized and ideal youth society by non-violently preventing oppression of the weak.***
+                            </p>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#vission">See Our Vission</button>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#values">See Our Values</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------Mission ends here------>
+
+        <!--------vission starts here-------->
+             <!-- Modal -->
+             <div class="modal fade" id="vission" tabindex="-1" aria-labelledby="vissionLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="vissionLabel">আমাদের ভিশন</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <p>
+                                *** আমাদের ভিশন হচ্ছে আমরা এমন একটি সমাজব্যবস্থা গড়তে চাই যেখানে সমাজের সর্বস্তরের মানুষ একি ছাদের নিচে চলে আসবে যেখানে থাকবেনা কোনও ধনী-গরিব, দূর্বল-সবল, বর্ণ-বৈষম্য ইত্যাদির ভেদাভেদ। এবং এমন একটি সংস্থা গড়তে চাই যা আজীবন উক্ত মিশন ও ভিশন তদারকি ও সংরক্ষন করে সমাজকল্যাণ তথা মানবকল্যাণে নিঃস্বার্থভাবে কাজ করবে।***
+                            </p>
+                            <hr>
+                             <p>
+                               *** Our vision is that we want to build a society where people from all walks of life will come under one roof where there will be no discrimination between rich and poor, weak and strong, caste and inequality. And we want to build an organization that will work selflessly for social welfare and human welfare by supervising and preserving that mission and vision for life.***
+                            </p>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#values">See Our Values</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------vission ends here------>
+
+
+        <!--------values starts here-------->
+             <!-- Modal -->
+             <div class="modal fade" id="values" tabindex="-1" aria-labelledby="valuesLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header about-header">
+                            <h3 class="modal-title fw-bold" id="valuesLabel">আমাদের ভ্যালুস</h3>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3 about-body">
+                            <ul >
+                                <li><strong>সততা - </strong>আমরা ক্লাবের স্বার্থে, ক্লাব সদস্যদের স্বার্থে, সমাজের স্বার্থে, দেশের স্বার্থে সর্বাবস্থায় সৎ থাকব।</li>
+                                <li><strong>সম্মান - </strong>আমরা ক্লাবের ছোট বড় সবাইকে যথযথ সম্মান প্রদর্শন করবো। কারোও সম্মানহানি  হয় এমন কিছু করা যাবে না।</li>
+                                <li><strong>দলবদ্ধভাবে কাজ - </strong>ক্লাবের যেকোনো কাজ আমরা সম্মিলিতভাবে সম্পাদন করার চেষ্টা করবো।</li>
+                                <hr>
+                                <li><strong>Honesty - </strong>We will be honest in the interest of the club, in the interest of the club members, in the interest of the society, in the interest of the country.</li>
+                                <li><strong>Respect -</strong> We will show due respect to everyone in the club, big and small. Nothing can be done that dishonors anyone.</li>
+                                <li><strong>Team work -</strong> We will try to perform any work of the club together.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer about-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+        <!------values ends here------>
+
+
+
+    <!---------------Our mission, vission, values section ends here-------------->
+
+
+
+    <!--Login form start from here-->
+    <div class="row " id="form-login">
+        <form action="#" class="login-form col-12 mt-5 h-auto">
+            <div class="login-title text-center">
+                <div class="login-logo"></div>
+                <h2 class="mt-4" id="brand-n">SCSC</h2>
+                <h3 class="mb-4">LOGIN</h3>
+            </div>
+            <div class="input-fields">
+                <div class="input-style overflow-hidden">
+                    <svg fill="var(--mcolor)" class="svg-icon" viewBox="0 0 20 20">
+                     <path d="M12.075,10.812c1.358-0.853,2.242-2.507,2.242-4.037c0-2.181-1.795-4.618-4.198-4.618S5.921,4.594,5.921,6.775c0,1.53,0.884,3.185,2.242,4.037c-3.222,0.865-5.6,3.807-5.6,7.298c0,0.23,0.189,0.42,0.42,0.42h14.273c0.23,0,0.42-0.189,0.42-0.42C17.676,14.619,15.297,11.677,12.075,10.812 M6.761,6.775c0-2.162,1.773-3.778,3.358-3.778s3.359,1.616,3.359,3.778c0,2.162-1.774,3.778-3.359,3.778S6.761,8.937,6.761,6.775 M3.415,17.69c0.218-3.51,3.142-6.297,6.704-6.297c3.562,0,6.486,2.787,6.705,6.297H3.415z"></path>
+                    </svg>
+                    <input type="text" class="mb-3 col-12 " placeholder="Enter Email or phone" required>
+                </div>
+                <div class="input-style">
+                     <svg fill="var(--mcolor)" class="svg-icon" viewBox="0 0 20 20">
+                        <path d="M17.308,7.564h-1.993c0-2.929-2.385-5.314-5.314-5.314S4.686,4.635,4.686,7.564H2.693c-0.244,0-0.443,0.2-0.443,0.443v9.3c0,0.243,0.199,0.442,0.443,0.442h14.615c0.243,0,0.442-0.199,0.442-0.442v-9.3C17.75,7.764,17.551,7.564,17.308,7.564 M10,3.136c2.442,0,4.43,1.986,4.43,4.428H5.571C5.571,5.122,7.558,3.136,10,3.136 M16.865,16.864H3.136V8.45h13.729V16.864z M10,10.664c-0.854,0-1.55,0.696-1.55,1.551c0,0.699,0.467,1.292,1.107,1.485v0.95c0,0.243,0.2,0.442,0.443,0.442s0.443-0.199,0.443-0.442V13.7c0.64-0.193,1.106-0.786,1.106-1.485C11.55,11.36,10.854,10.664,10,10.664 M10,12.878c-0.366,0-0.664-0.298-0.664-0.663c0-0.366,0.298-0.665,0.664-0.665c0.365,0,0.664,0.299,0.664,0.665C10.664,12.58,10.365,12.878,10,12.878"></path>
+                     </svg>
+                    <input type="password" class=" mb-3 col-12" placeholder="Password" required >
+                </div>
+            </div>
+            
+            <div class="form-check mb-3 text-center">
+                <label for="checkbox">
+                <input type="checkbox" class="form-check-input" name="checkbox" id=""><span class=""> Remember me</span>
+                </label>
+            </div>
+                <div class="d-grid col-6 mx-auto"><button class="btn-login btn btn-lg btn-success" type="submit">Login</button></div>
+              <div class="link">
+                <a href="#">Forgot password?</a> or <a href="reg.html">Sign up</a>
+              </div>
+
+        </form>
+    </div>
+    <!--login form end here-->
+        
+  <!--Footer section start from here-->
+  <footer class="styling-footer"  id="scrollspyContactUs">
+    <div>
+        <div  class="row ">
+            <div class="col-md-4 ">
+                <h2 class="text-success text-center fw-bold">SCSC</h2>
+                <hr class="text-success text-center fw-bold">
+                <p>siraz chairman sporting club eastablish in 2014. our aim to make society peaceful. and keep our bangali culture. we are trying to maintain it. few words about our club should be writen here. thank you for visiting us</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-success text-center fw-bold">Contact us</h2>
+                <hr>
+                <ul class="list-unstyled ">
+                    <li><i class="fas fa-home"></i>&nbsp; Taltola, Hazipur, Hossainpur, Kishoreganj</li>
+                    <li><i class="fas fa-phone"></i>&nbsp; +88015000000000</li>
+                    <li><i class="fas fa-envelope"></i>&nbsp; demo@gmail.com</li>
+                    <li><i class="fas fa-print"></i>&nbsp; fax no here.</li>	
+                </ul>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <h2 class="text-success fw-bold text-center"> Developed by</h2>
+                <hr>
+                <div class="developer">
+                    <img src="images/developer.jpg" alt="developer">
+                    <strong class="d-block mt-2">Hridoy Khan</strong>
+                    <p>Founder of Hridoy Academy</p>
+                </div>	
+            </div>	
+        </div>
+        <hr class="mt-4">
+        <div class="row d-flex text-center">
+            <p>
+                &copy; Copyright 2021 All Rights Reserved BY:
+                <a href="index.html" style="text-decoration: none"><strong class="text-success">Siraz Chairman Sporting Club</strong></a>
+            </p>	
+        </div>
+    </div>
+</footer>
+<!--footer section end here-->
+
+
+
+    
+
+  
+
+
+    <script src="javascript/js.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
